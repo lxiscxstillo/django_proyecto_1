@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    # Agrega tus URLs aquí
+    # Agrega tus URLs aqu
+    path('', views.index, name='luis-index'),
 ]
